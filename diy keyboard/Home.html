@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DIY Keyboard</title>
+    <link href="https://fonts.googleapis.com/css?family=Gamja+Flower" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<script src="scripts/main.js"></script>
+<link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+<body>
+
+<nav id="menuBar">
+    <a href="#">
+    <img id="icon" src="img/icons8-piano-64.png">
+<h1>DIY Keyboard</h1>
+</a>
+</nav>
+
+
+<div id="chords_bar" >
+<h2>QUICK CHORDS</h2>
+ <button id="cmaj" class="chord_btn" onclick="payChord(this.id)">CMAJ</button>
+ <button id="fmaj_7" class="chord_btn" onclick="payChord(this.id)">FMAJ7</button>
+ <button id="amin" class="chord_btn" onclick="payChord(this.id)">Am</button>
+ <button id="gmaj" class="chord_btn" onclick="payChord(this.id)">G</button>
+ <button id="emin_7" class="chord_btn" onclick="payChord(this.id)">Em7</button>
+ <button id="dmin" class="chord_btn" onclick="payChord(this.id)">Dm</button>
+ <p id="keyboardInfor">To play via Keyboard use keys A to L</p>
+ 
+
+
+</div>
+
+    <div id="piano_container" >
+
+     <button id="c_1" class="white_btn" onclick="play(this.id)">C</button>
+     <button id="d_1" class="white_btn"onclick="play(this.id)">D</button>
+     <button id="db_1" class="black_btn"onclick="play(this.id)">Db</button>
+     <button id="e_1" class="white_btn"onclick="play(this.id)">E</button>
+     <button id="f_1" class="white_btn"onclick="play(this.id)">F</button>
+     <button id="eb_1" class="black_btn"onclick="play(this.id)">Eb</button>
+     <button id="g_1" class="white_btn"onclick="play(this.id)">G</button>
+     <button id="gb_1" class="black_btn"onclick="play(this.id)">Gb</button>
+     <button id="a_1" class="white_btn"onclick="play(this.id)">A</button>
+     <button id="ab_1" class="black_btn"onclick="play(this.id)">Ab</button>
+     <button id="b_1" class="white_btn"onclick="play(this.id)">B</button>
+     <button id="bb_1" class="black_btn"onclick="play(this.id)">A#</button>
+     <button id="c_2" class="white_btn"onclick="play(this.id)">C</button>
+     <button id="d_2" class="white_btn"onclick="play(this.id)">D</button>
+     <button id="db_2" class="black_btn"onclick="play(this.id)">Db</button>
+     <button id="e_2" class="white_btn"onclick="play(this.id)">E</button>
+     <button id="f_2" class="white_btn"onclick="play(this.id)">F</button>
+     <button id="eb_2" class="black_btn"onclick="play(this.id)">Eb</button>
+     <button id="g_2" class="white_btn"onclick="play(this.id)">G</button>
+     <button id="gb_2" class="black_btn"onclick="play(this.id)">Gb</button>
+     <button id="a_2" class="white_btn"onclick="play(this.id)">A</button>
+     <button id="ab_2" class="black_btn"onclick="play(this.id)">Ab</button>
+     <button id="b_2" class="white_btn"onclick="play(this.id)">B</button>
+     <button id="bb_2" class="black_btn"onclick="play(this.id)">A#</button>
+     <button id="c_3" class="white_btn"onclick="play(this.id)">C</button>
+     <button id="d_3" class="white_btn"onclick="play(this.id)">D</button>
+     <button id="db_3" class="black_btn"onclick="play(this.id)">Db</button>
+     <button id="e_3" class="white_btn"onclick="play(this.id)">E</button>
+     <button id="eb_3" class="black_btn"onclick="play(this.id)">Eb</button>
+
+
+    </div>
+
+    <section id="infor">
+    <div id="infor_box">
+        <p id="pianoInfo">Written in javascript</p>
+     <div class="picBox">
+         <a href="https://www.youtube.com/channel/UCDtrZ1tQJrnA2OURzPnmNig"target="_blank">
+         <img src="img/icons8-play-button-50.png">
+         <p>YouTube</p>
+        </a>
+     </div>
+     <div class="picBox">
+         <a href="https://www.instagram.com/this_is_haze/" target="_blank">
+            <img src="img/icons8-instagram-50.png">
+            <p>Instagram</p>
+        </a>
+        </div>
+        <div class="picBox">
+            <a href="#" target="_blank">
+               <img src="img/icons8-github-50.png">
+               <p>GitHub</p>
+           </a>
+           </div>
+
+    </div>
+      
+    </section>
+
+    <div id="footer">
+        
+      <p>DIY piano Keyboard | Hazel Phago &copy; 2018</p>
+
+    </div>
+
+
+</body>
+
+</html>

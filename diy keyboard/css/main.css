@@ -1,0 +1,273 @@
+body{
+
+    background-color: #f4f4f4f4;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+h1{
+    font-family: 'Gamja Flower', cursive;
+    margin-left: 14%;
+    margin-top: 0px;
+    font-size: 28px;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 4px;
+    margin-top: 0px;
+    font-size: 12px;
+}
+
+#chords_bar{
+    margin-left: 10%;
+    margin-top: 18px;
+    width: 1020px;
+    height: 100px;
+    max-width: 1020px;
+    border-radius: 8px;
+    border: 1px solid whitesmoke;
+    background: white;
+    box-shadow: 2px 2px whitesmoke;
+    padding: 10px;
+    padding-top: 14px;
+    background: url("../img/material-texture.jpg");
+}
+
+.chord_btn{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: thick;
+    width: 58px;
+    height: 58px;
+    border: 1px solid transparent;
+    background: transparent;
+      color: black;
+    border-radius: 100%;
+    margin: 2px;
+    margin-top: 0px;
+    outline: none;
+}
+
+.chord_btn:hover{
+  cursor: pointer;
+  background: cornflowerblue;
+  color: white;
+  
+
+}
+
+.chord_btn:active{
+    box-shadow:2px 2px 2px 2px cornflowerblue;
+    border: 2px solid cornflowerblue;
+    color:white;
+   
+}
+
+
+button{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color:dimgray;
+}
+.white_btn{
+ outline: none;
+ width: 56px;
+ height: 280px;
+ padding-top: 180px;
+ border: 1px solid lightgray;
+ box-shadow: 2px 4px grey;
+ background-color: white;
+ position: relative;
+ border-radius: 0 0 4px 4px;
+
+}
+
+
+
+.white_btn:active{
+    background: cornflowerblue;
+    border: 0px white;
+    color: white;
+
+}
+
+.white_btn:focus{
+    background: cornflowerblue;
+    border: 0px white;
+    color: white;
+}
+
+.black_btn:active{
+    background: orange;
+    border: 0px;
+    color:black;
+}
+
+
+
+.black_btn{
+outline: none;
+width: 42px;
+height: 160px;
+border: 1px solid black;
+border-radius: 0 0 12px 12px;
+
+position: absolute;
+background:black;
+color:black;
+
+
+}
+
+
+/*notes layout*/
+
+#db_1{
+
+    left: 180px;
+}
+
+#eb_1{
+    left: 240px;
+}
+
+#gb_1{
+
+    left: 360px;
+}
+
+#ab_1{
+
+    left: 420px;
+}
+#bb_1{
+    left: 480px;
+}
+
+#db_2{
+    left: 600px;
+}
+
+#eb_2{
+
+    left: 660px;
+}
+#gb_2{
+
+    left: 780px;
+}
+
+#ab_2{
+left: 840px;
+}
+#bb_2{
+    left: 900px;
+}
+#db_3{
+    left: 1020px;
+}
+#eb_3{
+    left: 1080px;
+}
+
+/*keyboard section*/
+
+#piano_container{
+
+    width: 1020px;
+    max-width: 1020px;
+    height: 280px;
+    background-color: white;
+    border-radius: 6px;
+    margin: 10%;
+    margin-top: 2px;
+    padding: 8px;
+    background: url('../img/bg1.jpg');
+
+}
+
+/*---------*/
+
+#footer{
+  text-align: center;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#keyboardInfor{
+    border: 2px solid transparent;
+    border-radius: 4px;
+    width: auto;
+    height: auto;
+    background: transparent;
+    color: black;
+    margin-top: 0px;
+    margin-left: 80%;
+    margin-bottom: 10px;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 2px;
+}
+
+#footer{
+   margin-top: 22px;
+}
+
+.picBox{
+    float: left;
+    margin: 24px;
+    margin-left: 28px;
+    margin-top: 2px;
+    width: 32px;
+    height: 32px;
+    color: black;
+    cursor: pointer;
+}
+
+#infor{
+    width: 100%; 
+    height: 160px;
+    background-color: burlywood;
+    padding: 4px;
+   
+}
+#infor_box{
+    width: inherit;
+    height: inherit;
+    align-content: center;
+    margin-left: 37%;
+}
+
+#pianoInfo{
+    margin-left: 14px;
+    color: black;
+}
+
+#menuBar{
+    margin-top: 0px;
+    width: 100%;
+    height: 80px;
+    background: white;
+    border: 1px solid lightgray;
+    padding-top: 22px;
+    box-shadow: 4px grey;
+}
+
+#icon{
+
+    width: 32px;
+    height: 32px;
+    float: left;
+    margin-left: 10%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
