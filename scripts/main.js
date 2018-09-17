@@ -70,7 +70,7 @@ notes.push(d_3);
 notes.push(eb_3);
 notes.push(e_3);
 //total notes = 29
-var octave_index = 0;
+
 
 document.addEventListener('keypress',(event) =>{
   const keyName = event.keyCode;
