@@ -1,3 +1,9 @@
+var b = navigator.vendor;
+//check if user is using chrome
+if(b!="Google Inc."){
+    alert("I recommend using google chrome. Some funtions may not work in this browser");
+}
+//
 var audio_folder = "2 octaves/"; //notes folder
 var audio_ext = ".wav"; //notes audio type
 note_duration = 1.3// note duration in secs
