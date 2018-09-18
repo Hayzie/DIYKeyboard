@@ -1,7 +1,7 @@
 var b = navigator.vendor;
 //check if user is using chrome
 if(b!="Google Inc."){
-    alert("I recommend using google chrome. Some funtions may not work in this browser");
+    alert("I recommend using google chrome. Some funtions may not work.");
 }
 //
 var audio_folder = "2 octaves/"; //notes folder
