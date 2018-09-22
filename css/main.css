@@ -245,7 +245,7 @@ p{
    
 }
 #infor_box{
-    width: inherit;
+    width: 100%;
     height: inherit;
     align-content: center;
     margin-left: 37%;
