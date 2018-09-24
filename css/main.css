@@ -6,6 +6,8 @@ body{
 
 }
 
+* { box-sizing:border-box; }
+
 h1{
     font-family: 'Gamja Flower', cursive;
     margin-left: 14%;
@@ -24,9 +26,8 @@ h2{
     margin-left: auto;
     margin-right: auto;
     margin-top: 18px;
-    width: 1020px;
+    width: 72em;
     height: 100px;
-    max-width: 1020px;
     border-radius: 8px;
     border: 1px solid whitesmoke;
     background: white;
@@ -70,133 +71,70 @@ button{
     font-weight: bold;
     color:dimgray;
 }
-.white_btn{
- outline: none;
- width: 56px;
- height: 280px;
- padding-top: 180px;
- border: 1px solid lightgray;
- box-shadow: 2px 4px grey;
- background-color: white;
- position: relative;
- border-radius: 0 0 4px 4px;
-
-}
 
 
+/*----------*/
+ul {
+   
+    height:20em; width:72em;
+    margin:5em auto; padding:2em 0 0 2em; position:relative; 
+    margin-top: 0px;
+    border:1px solid burlywood; border-radius:8px;
+    background:#d7b58f; 
+   
+    object-fit: fill;
+  
+     }
 
-.white_btn:active{
+  li { margin:0; padding:0; list-style:none; position:relative; float:left; }
+  
+  ul .white {
+      height:18em; width:4em; z-index:1;
+      border-left:1px solid #bbb;
+      border-bottom:1px solid #bbb;
+      border-radius:0 0 8px 8px;
+      background: white;
+      position: relative;
+      border-radius: 0 0 4px 4px;
+      outline: none;
+      
+  }
+  
+  ul .white:active {
+      background: cornflowerblue;
+      border: 1px solid cornflowerblue;
+      color: white;
+  }
+
+   ul.white:focus{
     background: cornflowerblue;
     border: 0px white;
     color: white;
-
-}
-
-.white_btn:focus{
-    background: cornflowerblue;
-    border: 0px white;
-    color: white;
-}
-
-.black_btn:active{
-    background: orange;
-    border: 0px;
-    color:black;
-}
-
-
-
-.black_btn{
-outline: none;
-width: 42px;
-height: 160px;
-border: 1px solid black;
-border-radius: 0 0 12px 12px;
-position: absolute;
-margin-left: auto;
-margin-right: auto;
-background:black;
-color:black;
-
-
-
-}
-
-
-/*notes layout*/
-
-#db_1{
-
-    left: 15%;
-    }
-    
-    #eb_1{
-        left: 20%;
-    }
-    
-    #gb_1{
-    
-    left: 28%;
-    }
-    
-    #ab_1{
-    
-    left: 33%;
-    }
-    #bb_1{
-        left: 38%;
-    }
-    
-    #db_2{
-        left: 46%;
-    }
-    
-    #eb_2{
-    
-    left: 51%;
-    }
-    #gb_2{
-    
-    left: 60%;
-    }
-    
-    #ab_2{left: 64%;}
-    #bb_2{
-        left: 69%;
-    }
-    #db_3{
-        left: 77%;
-    }
-    #eb_3{
-        left: 82%;
-    }
-
-/*keyboard section*/
-
-#main_div{
-
-    width: 100%;
-    height: 100%;
-    max-width: 1351px;
-}
-
-#piano_container{
-
-    width: 1020px;
-    max-width: 1020px;
-    height: 280px;
-    background-color: white;
-    border-radius: 6px;
-    margin: 10%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2px;
-    padding: 8px;
-    background: url('../img/bg1.jpg');
-
-}
+  }
+  
+  .black {
+      height:10em; width:2em; margin:0 0 0 -1em; z-index:2;
+      border:1px solid #000;
+      border-radius:0 0 8px 8px;
+      background:linear-gradient(45deg, #222 0%,#555 100%);
+  }
+  
+  .black:active {
+      background: orange;
+      border: 0px;
+      color:black;
+  }
+  
+  .a,.g,.f,.d,.c { margin:0 0 0 -1em;  }
+  
+  ul:li:first-child{
+  
+      border-left:1px solid white;
+  }
 
 /*---------*/
+
+
 
 #footer{
   text-align: center;
@@ -240,15 +178,17 @@ p{
 #infor{
     width: 100%; 
     height: 160px;
-    background-color: burlywood;
+    position: relative;
+    background-color:#d7b58f;
     padding: 4px;
    
 }
+
+
 #infor_box{
-    width: 100%;
+    width: 400px;
     height: inherit;
-    align-content: center;
-    margin-left: 37%;
+    margin: 0 auto;
 }
 
 #pianoInfo{
@@ -259,6 +199,7 @@ p{
 #menuBar{
     margin-top: 0px;
     width: 100%;
+    position: relative;
     height: 80px;
     background: white;
     border: 1px solid lightgray;
@@ -278,10 +219,8 @@ a{
     text-decoration: none;
     color: black;
 }
-
-#blck_example{
-
-    background: red;
-    width: 40px;
-    height: 100px;
+#main_div{
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
