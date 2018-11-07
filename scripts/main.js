@@ -13,6 +13,8 @@ alt_note_duration = 1.8 //altanative note duration
 
 //for animation
 var notePlaying = "";
+//timers for each notes
+//for now I only created eight timers for 8 notes In Cmaj scale
 var intervalID = null;
 var intervalID_2 = null;
 var intervalID_3 = null;
