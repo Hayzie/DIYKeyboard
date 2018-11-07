@@ -13,31 +13,63 @@
 </head>
 <body>
 
-<nav id="menuBar">
-    <a href="#">
-    <img id="icon" src="img/icons8-piano-64.png">
-<h1>DIY Keyboard</h1>
-</a>
-</nav>
+
 
 
 <div id="main_div">
 
-<div id="chords_bar" >
-<h2>QUICK CHORDS</h2>
- <button id="cmaj" class="chord_btn" onclick="payChord(this.id)">CMAJ</button>
- <button id="fmaj_7" class="chord_btn" onclick="payChord(this.id)">FMAJ7</button>
- <button id="amin" class="chord_btn" onclick="payChord(this.id)">Am</button>
- <button id="gmaj" class="chord_btn" onclick="payChord(this.id)">G</button>
- <button id="emin_7" class="chord_btn" onclick="payChord(this.id)">Em7</button>
- <button id="dmin" class="chord_btn" onclick="payChord(this.id)">Dm</button>
- <p id="keyboardInfor">To play via Keyboard use keys A to L</p>
-</div>
+        <nav id="menuBar">
+                <a href="#">
+                <img id="icon" src="img/icons8-piano-64.png">
+            <h1>DIY Keyboard</h1>
+            </a>
 
+            <div id="chords_bar" >
+                    <h2>CHORDS</h2>
+                     <button id="cmaj" class="chord_btn" onclick="payChord(this.id)">C</button>
+                     <button id="fmaj_7" class="chord_btn" onclick="payChord(this.id)">FM7</button>
+                     <button id="amin" class="chord_btn" onclick="payChord(this.id)">Am</button>
+                     <button id="gmaj" class="chord_btn" onclick="payChord(this.id)">G</button>
+                     <button id="emin_7" class="chord_btn" onclick="payChord(this.id)">Em7</button>
+                     <button id="dmin" class="chord_btn" onclick="payChord(this.id)">Dm</button>
+                    </div>
+
+
+
+                    <section id="infor">
+                            <div id="infor_box">
+                                <p id="pianoInfo">Written in javascript</p>
+                             <div class="picBox">
+                                 <a href="https://www.youtube.com/channel/UCDtrZ1tQJrnA2OURzPnmNig"target="_blank">
+                                 <img src="img/icons8-play-button-50.png" width="32" height="32">
+                                 <p>YouTube</p>
+                                </a>
+                             </div>
+                            
+                            
+                                <div class="picBox">
+                                    <a href="#" target="_blank">
+                                       <img src="img/icons8-github-50.png" width="32" height="32">
+                                       <p>GitHub</p>
+                                   </a>
+                                   </div>
+                        
+                            </div>
+                              
+                            </section>                        
+
+                            <p id="copyright">DIY piano Keyboard | Hazel Phago &copy; 2018</p>
+
+
+            </nav>
+
+    
+
+<canvas id="canvas"></canvas>
   
-        <ul class="set">
+             <ul class="set">
             <li class="white e" id="c_1" onclick="play(this.id)"></li>
-              <li class="black ds" id="db_1" onclick="play(this.id)"></li>
+            <li class="black ds" id="db_1" onclick="play(this.id)"></li>
             <li class="white d" id="d_1" onclick="play(this.id)"></li>
             <li class="black cs" id="eb_1" onclick="play(this.id)"></li>
             <li class="white c" id="e_1" onclick="play(this.id)"></li>
@@ -69,35 +101,8 @@
       </ul>
 
 
-    <section id="infor">
-    <div id="infor_box">
-        <p id="pianoInfo">Written in javascript</p>
-     <div class="picBox">
-         <a href="https://www.youtube.com/channel/UCDtrZ1tQJrnA2OURzPnmNig"target="_blank">
-         <img src="img/icons8-play-button-50.png">
-         <p>YouTube</p>
-        </a>
-     </div>
-        <div class="picBox">
-            <a href="https://github.com/Hayzie/DIYKeyboard.git" target="_blank">
-               <img src="img/icons8-github-50.png">
-               <p>GitHub</p>
-           </a>
-           </div>
-
+    
     </div>
-      
-    </section>
-
-    </div>
-
-    <div id="footer">
-        
-      <p>DIY piano Keyboard | Hazel Phago &copy; 2018</p>
-
-    </div>
-
-
 
 </body>
 
