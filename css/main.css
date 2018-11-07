@@ -1,53 +1,61 @@
 body{
 
-    background-color: #f4f4f4f4;
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    background-color: #3d4b52;
     margin: 0px;
     padding: 0px;
+    color: white;
 
+}
+
+p{
+
+    color: black;
 }
 
 * { box-sizing:border-box; }
 
 h1{
-    font-family: 'Gamja Flower', cursive;
-    margin-left: 14%;
-    margin-top: 0px;
-    font-size: 28px;
+    font-weight: normal; 
+    margin-left: 20px;
+    margin-top: 6px;
+    font-size: 18px;
+    color: black;
 }
 
 h2{
-    font-family: 'Roboto', sans-serif;
-    margin-left: 4px;
+    margin-left: 20px;
     margin-top: 0px;
-    font-size: 12px;
+    font-size: 16px;
+    color: black;
 }
 
 #chords_bar{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 120px;
-    width: 72em;
-    height: 100px;
-    border-radius: 8px;
-    border: 1px solid whitesmoke;
-    background: white;
-    box-shadow: 2px 2px whitesmoke;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 40px;
+    width: 100%;
+    height: 200px;
+    border-top: 2px solid lightgrey;
+    border-bottom: 2px solid lightgrey;
     padding: 10px;
-    padding-top: 14px;
-    background: url("../img/material-texture.jpg");
+    padding-top: 20px;
+    background: inherit;
 }
 
 .chord_btn{
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    font-weight: thick;
-    width: 58px;
-    height: 58px;
+    font-size: 12px;
+    width: 48px;
+    height: 48px;
     border: 1px solid transparent;
     background: transparent;
-      color: black;
+    color: black;
     border-radius: 100%;
     margin: 2px;
+    margin-left: 10px;
     margin-top: 0px;
     outline: none;
 }
@@ -66,23 +74,36 @@ h2{
 
 
 button{
-    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: bold;
     color:dimgray;
 }
 
 
+/*canvas*/
+
+
+#canvas{
+
+    width: 68%;
+    height: 480px;
+    margin-left: auto;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    display: block;
+    background: #3d4b52;
+}
+
 /*----------*/
-/*Piano layout*/
-/*Reference :https://codepen.io/zastrow/pen/oDBki*/
 ul {
    
-    height:20em; width:72em;
-    margin:5em auto; padding:2em 0 0 2em; position:relative; 
-    margin-top: 0px;
-    border:1px solid burlywood; border-radius:8px;
-    background:#d7b58f; 
+    height:13em; width:55em;
+    margin:5em auto; padding:2em 0 0 2em; 
+    margin-right: 14em;
+    margin-top:8px;
+
+    border:1px solid #7cb342; border-radius:8px;
+    background:#3d4b52; 
    
     object-fit: fill;
   
@@ -91,11 +112,10 @@ ul {
   li { margin:0; padding:0; list-style:none; position:relative; float:left; }
   
   ul .white {
-      height:18em; width:4em; z-index:1;
-      border-left:1px solid #bbb;
-      border-bottom:1px solid #bbb;
+      height:9em; width:3em; z-index:1;
+      border:1px solid #7cb342;
       border-radius:0 0 8px 8px;
-      background: white;
+      background: inherit;
       position: relative;
       border-radius: 0 0 4px 4px;
       outline: none;
@@ -104,7 +124,7 @@ ul {
   
   ul .white:active {
       background: cornflowerblue;
-      border: 1px solid cornflowerblue;
+      border: 2px solid cornflowerblue;
       color: white;
   }
 
@@ -115,10 +135,10 @@ ul {
   }
   
   .black {
-      height:10em; width:2em; margin:0 0 0 -1em; z-index:2;
-      border:1px solid #000;
-      border-radius:0 0 8px 8px;
-      background:linear-gradient(45deg, #222 0%,#555 100%);
+      height:5em; width:2em; margin:0 0 0 -1em; z-index:2;
+      border:2px solid #7cb342;
+      border-radius:0 0 4px 4px;
+      background:#7cb342;
   }
   
   .black:active {
@@ -134,11 +154,7 @@ ul {
       border-left:1px solid white;
   }
 
-/*end of piano layout*/
 /*---------*/
-
-
-
 
 
 
@@ -147,7 +163,7 @@ ul {
 }
 
 p{
-    font-family: 'Roboto', sans-serif;
+    font-family: futura-pt, sans-serif;
 }
 
 
@@ -166,18 +182,15 @@ p{
     padding: 2px;
 }
 
-#footer{
-   margin-top: 22px;
-}
 
 .picBox{
     float: left;
     margin: 24px;
     margin-left: 28px;
     margin-top: 2px;
-    width: 32px;
-    height: 32px;
-    color: black;
+    width: 16px;
+    height: 16px;
+    color: white;
     cursor: pointer;
 }
 
@@ -185,32 +198,36 @@ p{
     width: 100%; 
     height: 160px;
     position: relative;
-    margin-top: 15%;
-    background-color:#d7b58f;
+    margin-top: 100%;
+    background-color:inherit;
     padding: 4px;
+    color: black;
    
 }
 
 
 #infor_box{
-    width: 400px;
+    width: 100%;
     height: inherit;
     margin: 0 auto;
+    margin-top: 100%;
 }
 
 #pianoInfo{
-    margin-left: 14px;
+    margin-left: 30px;
     color: black;
 }
 
 #menuBar{
     margin-top: 0px;
-    width: 100%;
-    position: relative;
-    height: 80px;
+    width: 20%;
+    float: left;
+    margin-bottom: 20px;
+    height: 100%;
     background: white;
-    border: 1px solid lightgray;
-    padding-top: 22px;
+    border: 1px solid white;
+    padding: 0px;
+    padding-top: 40px;
     box-shadow: 4px grey;
 }
 
@@ -219,6 +236,7 @@ p{
     width: 32px;
     height: 32px;
     float: left;
+    margin-right: 8px;
     margin-left: 10%;
 }
 
@@ -228,6 +246,15 @@ a{
 }
 #main_div{
     position: relative;
+    margin: 0px;
     width: 100%;
     height: 100%;
+}
+
+#copyright{
+
+    margin: 10px;
+    margin-top: 100%;
+    margin-left: 30px;
+    font-size: 12px;
 }
