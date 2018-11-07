@@ -1,8 +1,7 @@
 # DIYKeyboard
-Online basic  virtual keyboard
 //Preriquisites
-- Piano notes order and layout, chords
-Here are some useful links for piano
+You need to have a basic understanding of how piano works and its layout and chords.
+Here are some useful links...
 https://www.musictheory.net/lessons/23
 feel free to make any alterations regards Hazel Phago :-)
 
